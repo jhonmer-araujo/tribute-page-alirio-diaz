@@ -16,6 +16,15 @@ body {
     right: 5rem;
     top: 50%;
 }
+#subtitle {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 5rem;
+    top: 60%;
+}
 #img-div {
     text-align: center;
     margin: 0;
@@ -38,16 +47,56 @@ body {
     font-size: 1em;
     font-weight: bold;
     text-align: center;
+    color: white;
+    background-color: #333333;
+}
+.links-title h4 {
+    margin: 0;
+    padding: 1rem 0 0 0;
 }
 .links {
     display: flex;
     justify-content: center;
+    background-color: #333333;
 }
 #tribute-link {
     margin: 1em;
 }
-
 #tribute-link a {
     text-decoration: none;
-    color: #333333;
+    color: white;
+}
+@media screen and (max-width: 600px) {
+    #title {
+        top: 10%;
+        right: 5%;
+        font-size: xx-large;
+    }
+    #subtitle {
+        top: 15%;
+        right: 5%;
+        font-size: large;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    #title {
+        top: 20%;
+        right: 5%;
+        font-size: xx-large
+    }
+    #subtitle {
+        top: 25%;
+        right: 5%;
+        font-size: x-large;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    #title {
+        top: 30%;
+        right: 5%;
+    }
+    #subtitle {
+        top: 40%;
+        right: 5%;
+    }
 }
