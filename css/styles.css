@@ -1,18 +1,20 @@
 body {
-    background-color: #d2b784;
+    background-color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #333333;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444;
     margin: 0;
     padding: 0;
 }
 #title {
-    font-size: 3em;
+    font-size: 5em;
     font-weight: bold;
     text-align: center;
-    margin: 0;
-    padding: .7em;
+    color: white;
+    position: absolute;
+    right: 5rem;
+    top: 50%;
 }
 #img-div {
     text-align: center;
@@ -20,7 +22,7 @@ body {
     padding: 0;
 }
 #img-div img {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 #img-div figcaption {
@@ -30,7 +32,7 @@ body {
 }
 #tribute-info {
     text-align: justify;
-    padding: 1rem 25% 1rem 25%;
+    padding: 1rem 15% 1rem 15%;
 }
 .links-title {
     font-size: 1em;
